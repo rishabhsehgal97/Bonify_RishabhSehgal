@@ -35,6 +35,9 @@ public class Registration {
 
 	@FindBy(xpath = "//div[@class='password-validation-wrapper']")
 	WebElement RWrongCredentialsMsg;
+	
+	@FindBy(xpath = "//h2[@data-testid='CONFIRM_EMAIL_TITLE']")
+	WebElement EmailVerificationPage;
 
 	/******* Methods *******/
 
@@ -65,4 +68,10 @@ public class Registration {
 			return false;
 		}
 	}
+	
+	public String CheckEmailVerificationPage() 
+	{
+		return EmailVerificationPage.getText();
+	}
+
 }

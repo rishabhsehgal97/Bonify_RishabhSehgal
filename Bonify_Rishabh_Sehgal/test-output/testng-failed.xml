@@ -4,17 +4,16 @@
   <listeners>
     <listener class-name="Utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Bonify(failed)">
+  <test thread-count="5" name="BonifyRS(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC_002">
+      <class name="TestCases.TC_001">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="ClickingLoginCTA"/>
-          <include name="FieldValidation"/>
+          <include name="PostLogout"/>
         </methods>
-      </class> <!-- TestCases.TC_002 -->
+      </class> <!-- TestCases.TC_001 -->
     </classes>
-  </test> <!-- Bonify(failed) -->
+  </test> <!-- BonifyRS(failed) -->
 </suite> <!-- Failed suite [Bonify_Rishabh_Sehgal] -->

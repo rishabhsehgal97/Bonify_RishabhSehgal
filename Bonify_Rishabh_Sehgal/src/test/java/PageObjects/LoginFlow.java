@@ -31,6 +31,12 @@ public class LoginFlow {
 	@FindBy(xpath = "//div[contains(@class,'forgot-password')]/following::span[@data-testid='printErrorAlerts-']")
 	WebElement LWrongCredentialsMsg;
 
+	@FindBy(xpath = "//a[@href='/logout']")
+	WebElement LogoutCTA;
+	
+	@FindBy(xpath = "//p[text()='Du bist ausgeloggt. Bis bald!']")
+	WebElement LoggedoutPage;
+
 	/******* Methods *******/
 
 	public void ClickEinloggenCTA() 
@@ -62,5 +68,17 @@ public class LoginFlow {
 			return false;
 		}
 	}
+	
+	public void ClickLogoutCTA() 
+	{
+		LogoutCTA.click();
+	}
+	
+	public String CheckLoggedoutPage() 
+	{
+		return LoggedoutPage.getText();
+	}
+
+	
 	}
 	

@@ -43,3 +43,132 @@
 2025-04-25 02:14:01,899 - Bonify -INFO - Clicked on Submit Button on Login Page
 2025-04-25 02:15:58,231 - Bonify -INFO - Login Test (TC_002) PASSED
 2025-04-25 02:15:58,616 - Bonify -INFO - ********************************************************************************
+2025-04-25 15:48:39,724 - Bonify -INFO - ********************************************************************************
+2025-04-25 15:48:39,751 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 15:48:44,767 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 15:49:12,407 - Bonify -INFO - Click on 'Neu bei Bonify' on top Header
+2025-04-25 15:49:36,221 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 15:49:41,295 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 15:49:41,295 - Bonify -INFO - Cookies Block Handeled again in Registration Page
+2025-04-25 15:49:43,780 - Bonify -INFO - Entered EmailAddress on Registraion Page
+2025-04-25 15:49:43,827 - Bonify -INFO - Entered Password on Registraion Page
+2025-04-25 15:49:43,864 - Bonify -INFO - Clicked on CheckBox on Registraion Page
+2025-04-25 15:50:04,369 - Bonify -INFO - Clicked on Submit Button on Registraion Page
+2025-04-25 15:50:10,451 - Bonify -INFO - Registration Test (TC_001) PASSED
+2025-04-25 15:50:11,390 - Bonify -INFO - ********************************************************************************
+2025-04-25 15:50:13,689 - Bonify -INFO - ********************************************************************************
+2025-04-25 15:50:13,691 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 15:50:18,768 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 15:51:07,026 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 15:51:37,984 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 15:51:43,059 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 15:51:43,060 - Bonify -INFO - Cookies Block Handeled again in Login Page
+2025-04-25 15:51:45,640 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 15:51:45,681 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 15:53:39,751 - Bonify -INFO - Clicked on Submit Button on Login Page
+2025-04-25 15:53:45,839 - Bonify -INFO - Login Test (TC_002) PASSED
+2025-04-25 15:53:46,175 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:02:38,226 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:02:38,238 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:02:43,322 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:03:33,064 - Bonify -INFO - Click on 'Neu bei Bonify' on top Header
+2025-04-25 16:04:13,717 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:04:18,779 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:04:18,779 - Bonify -INFO - Cookies Block Handeled again in Registration Page
+2025-04-25 16:04:21,310 - Bonify -INFO - Entered EmailAddress on Registraion Page
+2025-04-25 16:04:21,353 - Bonify -INFO - Entered Password on Registraion Page
+2025-04-25 16:04:21,400 - Bonify -INFO - Clicked on CheckBox on Registraion Page
+2025-04-25 16:04:21,472 - Bonify -INFO - Clicked on Submit Button on Registraion Page
+2025-04-25 16:04:45,356 - Bonify -INFO - Registration Test (TC_001) PASSED
+2025-04-25 16:04:46,328 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:04:48,730 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:04:48,739 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:04:53,799 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:05:44,779 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 16:05:49,332 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 16:05:49,363 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 16:05:50,456 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:08:16,927 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:08:16,939 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:08:22,002 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:09:11,224 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 16:09:15,769 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 16:09:15,798 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 16:09:16,884 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:09:35,177 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:09:35,188 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:09:40,255 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:10:32,190 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 16:10:36,727 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 16:10:36,759 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 16:10:37,859 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:12:30,088 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:12:30,107 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:12:35,164 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:13:25,638 - Bonify -INFO - Click on 'Neu bei Bonify' on top Header
+2025-04-25 16:13:28,034 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:13:33,087 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:13:33,087 - Bonify -INFO - Cookies Block Handeled again in Registration Page
+2025-04-25 16:13:35,738 - Bonify -INFO - Entered EmailAddress on Registraion Page
+2025-04-25 16:13:35,793 - Bonify -INFO - Entered Password on Registraion Page
+2025-04-25 16:13:35,838 - Bonify -INFO - Clicked on CheckBox on Registraion Page
+2025-04-25 16:13:35,882 - Bonify -INFO - Clicked on Submit Button on Registraion Page
+2025-04-25 16:14:03,176 - Bonify -INFO - Registration Test (TC_001) PASSED
+2025-04-25 16:14:04,107 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:14:06,597 - Bonify -INFO - ********************************************************************************
+2025-04-25 16:14:06,601 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:14:11,676 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:15:00,716 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 16:15:03,203 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 16:15:08,280 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 16:15:08,280 - Bonify -INFO - Cookies Block Handeled again in Login Page
+2025-04-25 16:15:10,888 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 16:15:10,930 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 16:17:07,025 - Bonify -INFO - Clicked on Submit Button on Login Page
+2025-04-25 16:17:16,047 - Bonify -INFO - Login Test (TC_002) PASSED
+2025-04-25 16:17:16,407 - Bonify -INFO - ********************************************************************************
+2025-04-25 18:47:45,466 - Bonify -INFO - ********************************************************************************
+2025-04-25 18:47:45,485 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:47:50,569 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:48:41,837 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 18:48:44,311 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:48:49,383 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:48:49,384 - Bonify -INFO - Cookies Block Handeled again in Login Page
+2025-04-25 18:48:49,877 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:48:54,897 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:48:54,897 - Bonify -INFO - Cookies Block Handeled again in Logout Page
+2025-04-25 18:48:57,499 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 18:48:57,544 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 18:48:57,589 - Bonify -INFO - Clicked on Submit Button on Login Page
+2025-04-25 18:50:57,712 - Bonify -INFO - Alret for Wrong Credentials Msg not came Assertion Pass!
+2025-04-25 18:51:10,167 - Bonify -INFO - ********************************************************************************
+2025-04-25 18:53:46,201 - Bonify -INFO - ********************************************************************************
+2025-04-25 18:53:46,220 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:53:51,284 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:54:41,369 - Bonify -INFO - Click on 'Login' on top Header
+2025-04-25 18:54:43,826 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:54:48,904 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:54:48,904 - Bonify -INFO - Cookies Block Handeled again in Login Page
+2025-04-25 18:54:51,476 - Bonify -INFO - Entered EmailAddress on Login Page
+2025-04-25 18:54:51,518 - Bonify -INFO - Entered Password on Login Page
+2025-04-25 18:56:44,872 - Bonify -INFO - Clicked on Submit Button on Login Page
+2025-04-25 18:56:57,945 - Bonify -INFO - Alret for Wrong Credentials Msg not came Assertion Pass!
+2025-04-25 18:56:58,314 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 18:57:03,405 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 18:57:03,405 - Bonify -INFO - Cookies Block Handeled again in Logout Page
+2025-04-25 18:57:24,228 - Bonify -INFO - Clicked on Logout Button
+2025-04-25 18:57:41,710 - Bonify -INFO - ********************************************************************************
+2025-04-25 19:12:49,264 - Bonify -INFO - Bonify Landingpage is opened
+2025-04-25 19:12:49,653 - Bonify -INFO - ********************************************************************************
+2025-04-25 19:12:54,740 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 19:13:44,393 - Bonify -INFO - Click on 'Neu bei Bonify' on top Header
+2025-04-25 19:13:51,892 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 19:13:51,893 - Bonify -INFO - Cookies Block Handeled again in Registration Page
+2025-04-25 19:13:54,530 - Bonify -INFO - Entered EmailAddress on Registraion Page
+2025-04-25 19:13:54,575 - Bonify -INFO - Entered Password on Registraion Page
+2025-04-25 19:13:54,618 - Bonify -INFO - Clicked on CheckBox on Registraion Page
+2025-04-25 19:15:25,339 - Bonify -INFO - Clicked on Submit Button on Registraion Page
+2025-04-25 19:15:34,381 - Bonify -INFO - Alret for Wrong Credentials Msg not came for Registarion Assertion Pass!
+2025-04-25 19:15:39,707 - Bonify -INFO - Cookies Block Handeled
+2025-04-25 19:15:39,709 - Bonify -INFO - Cookies Block Handeled again in Email Verification Page
+2025-04-25 19:15:48,952 - Bonify -INFO - ********************************************************************************

@@ -16,9 +16,8 @@ public class TC_001 extends BaseClass {
 
 
     @Test(priority = 1)
-    public void CoockiesPopupAccept() throws InterruptedException {
+    public void CoockiesPopupAcceptonLandingPage() throws InterruptedException {
     	
-    	logger.info("Bonify Landingpage is opened");
     	Thread.sleep(5000);
     	
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -50,14 +49,13 @@ public class TC_001 extends BaseClass {
         RP.ClickNewToBoinfy();
 		logger.info("Click on 'Neu bei Bonify' on top Header");
 
-        driver.get(
-				"https://sso.bonify.de/oauth2/register?tenantId=d53c5515-7538-45f1-ac0c-4f7021bb2e62&client_id=c7c95483-c023-4cc6-9e99-9f5aaabcff29&redirect_uri=https%3A%2F%2Fmy.bonify.de%2Fcallback&response_type=code&_gl=1*18p3vp4*_gcl_au*MzgwODE5NDE0LjE3NDUzMTEzOTYuMTQxMzczODE0NS4xNzQ1NDA1MTAyLjE3NDU0MDUxMDI.*_ga*NDc4NzgxMDUwLjE3NDUzMTEzOTc.*_ga_Y16SD8LR07*MTc0NTQ4MDk1My41LjEuMTc0NTQ4MTQwMS41NS4wLjA.");
+  //      driver.get("https://sso.bonify.de/oauth2/register?tenantId=d53c5515-7538-45f1-ac0c-4f7021bb2e62&client_id=c7c95483-c023-4cc6-9e99-9f5aaabcff29&redirect_uri=https%3A%2F%2Fmy.bonify.de%2Fcallback&response_type=code&_gl=1*18p3vp4*_gcl_au*MzgwODE5NDE0LjE3NDUzMTEzOTYuMTQxMzczODE0NS4xNzQ1NDA1MTAyLjE3NDU0MDUxMDI.*_ga*NDc4NzgxMDUwLjE3NDUzMTEzOTc.*_ga_Y16SD8LR07*MTc0NTQ4MDk1My41LjEuMTc0NTQ4MTQwMS41NS4wLjA.");
 		Thread.sleep(2000);
     }
     
     @Test(priority = 3)
-    public void RepeatCoockiesPopupAccept() throws InterruptedException  {
-    	CoockiesPopupAccept();
+    public void CoockiesPopupAcceptononRegistrationPage() throws InterruptedException  {
+    	CoockiesPopupAcceptonLandingPage();
 		logger.info("Cookies Block Handeled again in Registration Page");
 
     }
@@ -82,15 +80,47 @@ public class TC_001 extends BaseClass {
     	if(!RP.RAlretWrongCredentialsMsg())
 		{
 			Assert.assertTrue(true);
+			logger.info("Alret for Wrong Credentials Msg not came for Registarion Assertion Pass!");
+			captureScreen(driver,"Passed Registration Test");
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Alret for Wrong Credentials Msg came for Registraion Assertion Fail!");
+			captureScreen(driver,"Failed Registration Test");
+	}
+    	
+    }
+    
+    @Test(priority = 5)
+    public void RepeatCoockiesPopupAcceptonEmailVerifiactionPage() throws InterruptedException  {
+    	CoockiesPopupAcceptonLandingPage();
+		logger.info("Cookies Block Handeled again in Email Verification Page");
+
+    }
+    
+    @Test(priority = 6)
+	public void EmailVerification() throws InterruptedException, IOException {
+		
+    	RP = new Registration(driver);		
+		String ExpectedEmailVeritext = "Aktiviere deinen Account!";
+
+		Thread.sleep(2000);
+
+		if(RP.CheckEmailVerificationPage().equals(ExpectedEmailVeritext))
+		{
+			Assert.assertTrue(true);
 			logger.info("Registration Test (TC_001) PASSED");
 			captureScreen(driver,"Passed Registration Test");
 		}
 		else
 		{
-			captureScreen(driver,"Failed Registration Test");
 			Assert.assertTrue(false);
 			logger.info("Registration test FAILED");
+			captureScreen(driver,"Failed Registration Test");
 		}
-
-    }
+	}
+	
+	
+    
 }

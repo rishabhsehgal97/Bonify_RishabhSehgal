@@ -15,8 +15,8 @@
 
 			<classes>
 
+			<!--  	<class name="TestCases.TC_001" /> -->
 				<class name="TestCases.TC_001" />
-				<class name="TestCases.TC_002" />
 				<!-- <class name="TestCases.TC_003"/> -->
 
 

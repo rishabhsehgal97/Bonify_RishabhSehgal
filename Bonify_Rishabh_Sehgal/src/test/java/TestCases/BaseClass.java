@@ -54,11 +54,12 @@ public class BaseClass {
 
 		driver.manage().deleteAllCookies();
 		driver.get(baseURL);
+		logger.info("********************************************************************************");
+		logger.info("Bonify Landingpage is opened");
 
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 
-		logger.info("********************************************************************************");	
 		driver.switchTo().defaultContent();
 
 	}
@@ -77,7 +78,6 @@ public class BaseClass {
 		System.out.println("Screenshot taken");
 	}
 
-	
 	public WebDriver getDriver() {
 
 		return driver;

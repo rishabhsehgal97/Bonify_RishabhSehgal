@@ -15,9 +15,9 @@ public class TC_002 extends BaseClass {
 
 
 	@Test(priority = 1)
-	public void CoockiesPopupAccept() throws InterruptedException {
+	
+	public void CoockiesPopupAcceptonLandingPage() throws InterruptedException {
 
-		logger.info("Bonify Landingpage is opened");
 		Thread.sleep(5000);
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -44,15 +44,14 @@ public class TC_002 extends BaseClass {
 		LF.ClickEinloggenCTA();
 		logger.info("Click on 'Login' on top Header");
 
-		driver.get(
-				"https://sso.bonify.de/oauth2/authorize?client_id=c7c95483-c023-4cc6-9e99-9f5aaabcff29&redirect_uri=https%3A%2F%2Fmy.bonify.de%2Fcallback&response_type=code&scope=openid%20profile&state=0d039712e11d44ce994a8e987e8ae0db&code_challenge=ZC3IiERmZuCMHeRKR1yxqfexk4EItJe-AhXeD0kSCLk&code_challenge_method=S256&response_mode=query");
+//		driver.get("https://sso.bonify.de/oauth2/authorize?client_id=c7c95483-c023-4cc6-9e99-9f5aaabcff29&redirect_uri=https%3A%2F%2Fmy.bonify.de%2Fcallback&response_type=code&scope=openid%20profile&state=0d039712e11d44ce994a8e987e8ae0db&code_challenge=ZC3IiERmZuCMHeRKR1yxqfexk4EItJe-AhXeD0kSCLk&code_challenge_method=S256&response_mode=query");
 		Thread.sleep(2000);
 
 	}
 
 	@Test(priority = 3)
-	public void RepeatCoockiesPopupAccept() throws InterruptedException {
-		CoockiesPopupAccept();
+	public void CoockiesPopupAcceptononLoginPage() throws InterruptedException {
+		CoockiesPopupAcceptonLandingPage();
 		logger.info("Cookies Block Handeled again in Login Page");
 
 	}
@@ -69,22 +68,65 @@ public class TC_002 extends BaseClass {
 		logger.info("Entered Password on Login Page");
 		LF.ClickLSubmitButton();
 		logger.info("Clicked on Submit Button on Login Page");
-		Thread.sleep(2000);
+		Thread.sleep(6000);
 
 		if(!LF.LAlretWrongCredentialsMsg())
 		{
 			Assert.assertTrue(true);
-			logger.info("Login Test (TC_002) PASSED");
+			logger.info("Alret for Wrong Credentials Msg not came for Login Assertion Pass!");
 			captureScreen(driver,"Passed Login Test");
-
 		}
 		else
 		{
-			captureScreen(driver,"Failed Login Test");
 			Assert.assertTrue(false);
-			logger.info("Login test FAILED");
+			logger.info("Alret for Wrong Credentials Msg came for Login Assertion Fail!");
+			captureScreen(driver,"Failed Login Test");
 		}
 
+	}
+	
+	@Test(priority = 5)
+	public void CoockiesPopupAcceptononLoggoutPage() throws InterruptedException {
+		CoockiesPopupAcceptonLandingPage();
+		logger.info("Cookies Block Handeled again in Logout Page");
 
 	}
+
+	
+	@Test(priority = 6)
+	public void LogoutCheck() throws InterruptedException {
+		
+		LoginFlow LF = new LoginFlow(driver);
+
+		Thread.sleep(2000);
+		LF.ClickLogoutCTA();
+		logger.info("Clicked on Logout Button");
+		
+	}
+	
+	@Test(priority = 7)
+	public void PostLogout() throws InterruptedException, IOException {
+		
+		LoginFlow LF = new LoginFlow(driver);
+		
+		String ExpectedLogouttext = "Du bist ausgeloggt. Bis bald!";
+
+		Thread.sleep(2000);
+
+		if(LF.CheckLoggedoutPage().equals(ExpectedLogouttext))
+		{
+			Assert.assertTrue(true);
+			logger.info("Login Test (TC_002) PASSED");
+			captureScreen(driver,"Passed Login Test");
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Login test FAILED");
+			captureScreen(driver,"Failed Login Test");
+		}
+	}
+	
+	
+	
 }
