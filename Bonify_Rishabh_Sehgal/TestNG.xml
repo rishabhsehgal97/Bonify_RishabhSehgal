@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Bonify_Rishabh_Sehgal">
+
+	<listeners>
+
+		<listener class-name="Utilities.Reporting" />
+
+	</listeners>
+
+
+	<test name="BonifyRS">
+
+		<parameter name="browser" value="chrome">
+
+			<classes>
+
+				<class name="TestCases.TC_001" />
+				<class name="TestCases.TC_002" />
+				<!-- <class name="TestCases.TC_003"/> -->
+
+
+
+			</classes>
+
+		</parameter>
+	</test>
+
+</suite>

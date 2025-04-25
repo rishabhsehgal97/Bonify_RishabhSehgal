@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bonify_Rishabh_Sehgal]">
+  <listeners>
+    <listener class-name="Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Bonify(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC_002">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="ClickingLoginCTA"/>
+          <include name="FieldValidation"/>
+        </methods>
+      </class> <!-- TestCases.TC_002 -->
+    </classes>
+  </test> <!-- Bonify(failed) -->
+</suite> <!-- Failed suite [Bonify_Rishabh_Sehgal] -->
